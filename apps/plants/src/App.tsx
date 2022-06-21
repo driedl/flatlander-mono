@@ -1,31 +1,32 @@
-import React from 'react';
-import { AppShell } from 'ui';
+import React from "react";
+import { AppShell } from "ui";
+
+import PlantsContent from "./PlantsContent";
+
+function SelectedContent() {
+  return <h1>These are selected plants.</h1>;
+}
 
 function App() {
   return (
     <div>
-      <AppShell 
-        title="Flatlander Farms plant directory" 
+      <AppShell
+        title="Flatlander Farms"
         colorScheme="dark"
         routes={[
           {
-            path: '/',
-            element: () => <h1>Is this really Home</h1>,
+            path: "/",
+
+            element: PlantsContent,
           },
           {
-            path: '/plants',
-            element: () => <h1>Plant Directory</h1>,
+            path: "/plants",
+            element: SelectedContent,
           },
         ]}
         navLinks={[
-          {
-            path: '/',
-            label: 'Home',
-          },
-          {
-            path: '/plants',
-            label: 'Plants',
-          },
+          { path: "/", label: "Home" },
+          { path: "/plants", label: "Plants" },
         ]}
       />
     </div>
