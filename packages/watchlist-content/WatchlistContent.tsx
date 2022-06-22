@@ -3,23 +3,23 @@ import { PlantCard } from "components";
 import { useStore } from "store";
 import { Grid } from "@mantine/core";
 
-const PlantsContent = () => {
-  const { allPlants } = useStore();
-
-  console.group(allPlants);
+const Watchlist = () => {
+  const { getSelectedPlants } = useStore();
+  const selectedPlants = getSelectedPlants();
 
   return (
     <Grid sx={{ gap: "1rem" }}>
-      {allPlants.map((plant) => (
+      {selectedPlants.map((plant) => (
         <PlantCard
+          id={plant.id}
           key={plant.name}
           name={plant.name}
           image={plant.image}
-          showAddButton={true}
+          showAddButton={false}
         />
       ))}
     </Grid>
   );
 };
 
-export default PlantsContent;
+export default Watchlist;

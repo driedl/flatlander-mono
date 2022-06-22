@@ -23,5 +23,7 @@ module.exports = {
       // .jsx files are allowed to have .tsx extensions
       { extensions: [".js", ".jsx", ".ts", ".tsx"] },
     ],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error"
   },
 };

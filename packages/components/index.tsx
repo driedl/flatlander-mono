@@ -12,12 +12,13 @@ import { useStore } from "store";
 
 // eslint-disable-next-line import/prefer-default-export
 export const PlantCard: React.FunctionComponent<{
+  id: number;
   name: string;
   image: string;
-  showAddButton?: boolean;
-}> = ({ name, image, showAddButton = false }) => {
+  showAddButton: boolean;
+}> = ({ id, name, image, showAddButton = false }) => {
   const theme = useMantineTheme();
-  const { addPlant } = useStore();
+  const { addSelectedPlant } = useStore();
 
   return (
     <Card shadow="sm" p="lg">
@@ -36,8 +37,8 @@ export const PlantCard: React.FunctionComponent<{
         <Button
           variant="light"
           color="blue"
-          fullwidth
-          onClick={() => addPlant(name)}
+          fullWidth
+          onClick={() => addSelectedPlant(id)}
         >
           Add to list
         </Button>
