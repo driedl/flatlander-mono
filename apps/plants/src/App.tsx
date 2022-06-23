@@ -1,12 +1,7 @@
-import React from "react";
 import { AppShell } from "ui";
 
 import { PlantsContent } from "plants-content";
 import { Watchlist } from "watchlist-content";
-
-function SelectedContent() {
-  return <h1>These are selected plants.</h1>;
-}
 
 function App() {
   return (

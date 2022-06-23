@@ -14,11 +14,11 @@
     "@types/react-dom": "^18.0.5",
     "eslint": "^7.32.0",
     "eslint-config-custom": "workspace:*",
+    "react": "^18.1.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
   },
   "dependencies": {
-    "react": "^18.1.0",
     "@mantine/core": "^4.2.9",
     "@mantine/hooks": "^4.2.9",
     "react-router-dom": "^6.3.0",

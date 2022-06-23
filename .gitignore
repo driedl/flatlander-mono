@@ -5,19 +5,15 @@ node_modules
 .pnp
 .pnp.js
 dist
-
+build
 
 # testing
 coverage
 
-# next.js
-.next/
-out/
-build
-
 # misc
 .DS_Store
 *.pem
+tmp/
 
 # debug
 npm-debug.log*
@@ -30,7 +26,6 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-tmp/
 
 # turbo
 .turbo
