@@ -1,5 +1,4 @@
 import { AppShell } from "ui";
-
 import { PlantsContent } from "plants-content";
 import { Watchlist } from "watchlist-content";
 
@@ -10,15 +9,8 @@ function App() {
         title="Flatlander Farms"
         colorScheme="dark"
         routes={[
-          {
-            path: "/",
-
-            element: PlantsContent,
-          },
-          {
-            path: "/watch",
-            element: Watchlist,
-          },
+          { path: "/", element: PlantsContent },
+          { path: "/watch", element: Watchlist },
         ]}
         navLinks={[
           { path: "/", label: "Plants" },
