@@ -1,4 +1,5 @@
-const placeholderImage = "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg";
+const placeholderImage =
+  "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg";
 
 export default {
   plants: [
@@ -19,7 +20,9 @@ export default {
       size: "4-6",
       spacing: "2-5",
       yearPlanted: "2022",
-      image: 'https://cdn.shopify.com/s/files/1/0250/1384/6115/products/Loganberry_2000x.jpg?v=1565657509',
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/Loganberry_2000x.jpg?",
+      source: "https://www.treesofantiquity.com/products/loganberry",
     },
     {
       id: 2,
@@ -38,7 +41,10 @@ export default {
       size: "4-6",
       spacing: "2-5",
       yearPlanted: "2022",
-      image: 'https://cdn.shopify.com/s/files/1/0250/1384/6115/products/heritage-raspberries_2000x.jpg?v=1565653983 ',
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/heritage-raspberries_2000x.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/heritage-red-raspberries",
     },
     {
       id: 3,
@@ -57,7 +63,9 @@ export default {
       size: "4-6",
       spacing: "2-5",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/fall-gold-raspberries_2000x.JPG",
+      source: "https://www.treesofantiquity.com/products/fall-gold-raspberries",
     },
     {
       id: 4,
@@ -76,7 +84,10 @@ export default {
       size: "4-6",
       spacing: "2-5",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/latham-raspberries_2000x.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/llatham-red-raspberries",
     },
     {
       id: 5,
@@ -95,7 +106,10 @@ export default {
       size: "4-6",
       spacing: "2-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/black-velvet-gooseberry_2000x.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/black-velvet-gooseberry-1",
     },
     {
       id: 6,
@@ -114,7 +128,9 @@ export default {
       size: "4-6",
       spacing: "2-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/pixwell.gooseberry.trees.of.antiquity_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/pixwell-gooseberry",
     },
     {
       id: 7,
@@ -133,7 +149,9 @@ export default {
       size: "4-6",
       spacing: "2-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/hinnomaki-red-gooseberry_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/poorman-gooseberry",
     },
     {
       id: 8,
@@ -152,7 +170,10 @@ export default {
       size: "4-6",
       spacing: "4-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/black.currant.trees.of.antiquity_2000x.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/crandall-black-currant",
     },
     {
       id: 9,
@@ -171,7 +192,9 @@ export default {
       size: "4-6",
       spacing: "4-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/red-currant-trees-of-antiquity_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/red-lake-currant",
     },
     {
       id: 10,
@@ -190,7 +213,9 @@ export default {
       size: "2-4",
       spacing: "6-12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/sunshineblue-blueberry-bush_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/sunshine-blueberry",
     },
     {
       id: 11,
@@ -209,7 +234,9 @@ export default {
       size: "4-6",
       spacing: "4-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/reka-blueberries_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/reka-blueberry",
     },
     {
       id: 12,
@@ -228,7 +255,9 @@ export default {
       size: "4-6",
       spacing: "4-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/oneal-blueberries_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/oneal-blueberry",
     },
     {
       id: 13,
@@ -247,7 +276,9 @@ export default {
       size: "4-6",
       spacing: "4-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/jubilee-blueberry-bush_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/jubilee-blueberry",
     },
     {
       id: 14,
@@ -266,7 +297,9 @@ export default {
       size: "4-6",
       spacing: "4-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/jersey-blueberry_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/jersey-blueberry",
     },
     {
       id: 15,
@@ -285,7 +318,9 @@ export default {
       size: "4-6",
       spacing: "4-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/Bluecrop-blueberry_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/elliot-blueberry",
     },
     {
       id: 16,
@@ -304,7 +339,9 @@ export default {
       size: "6-12",
       spacing: "4-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/blueberry-bushes_2000x.JPG",
+      source: "https://www.treesofantiquity.com/products/chandler-blueberry",
     },
     {
       id: 17,
@@ -323,7 +360,9 @@ export default {
       size: "12-20",
       spacing: "12-18",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/black-mission-fig",
     },
     {
       id: 18,
@@ -342,7 +381,9 @@ export default {
       size: "12-20",
       spacing: "12-18",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/copy-of-conadria-fig",
     },
     {
       id: 19,
@@ -361,7 +402,9 @@ export default {
       size: "12-20",
       spacing: "12-18",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/brown-turkey-fig",
     },
     {
       id: 20,
@@ -380,7 +423,10 @@ export default {
       size: "4-6",
       spacing: "4-6",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/copy-of-vincent-female-fuzzy-kiwi",
     },
     {
       id: 21,
@@ -399,7 +445,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/governor-wood-cherry",
     },
     {
       id: 22,
@@ -418,7 +466,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/lapins-cherry-tree",
     },
     {
       id: 23,
@@ -437,7 +487,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/black-republican-cherry",
     },
     {
       id: 24,
@@ -456,7 +509,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/bing-cherry-tree",
     },
     {
       id: 25,
@@ -475,7 +530,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/rainier-cherry",
     },
     {
       id: 26,
@@ -494,7 +551,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/flavor-queen-pluot",
     },
     {
       id: 27,
@@ -513,7 +572,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/flavor-supreme-pluot",
     },
     {
       id: 28,
@@ -532,7 +593,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/french-plum",
     },
     {
       id: 29,
@@ -551,7 +614,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/bavays-green-gage-plum",
     },
     {
       id: 30,
@@ -570,7 +636,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/santa-rosa-plum",
     },
     {
       id: 31,
@@ -589,7 +657,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/silver-logan-peach",
     },
     {
       id: 32,
@@ -608,7 +678,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/ohenry-peach",
     },
     {
       id: 33,
@@ -627,7 +699,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/collections/peach-trees/products/george-iv-peach",
     },
     {
       id: 34,
@@ -646,7 +721,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/goldmine-nectarine",
     },
     {
       id: 35,
@@ -665,7 +742,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/snow-queen-nectarine",
     },
     {
       id: 36,
@@ -684,7 +763,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/blenheim-apricot",
     },
     {
       id: 37,
@@ -703,7 +784,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/gravenstein-apple-tree",
     },
     {
       id: 38,
@@ -722,7 +806,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/golden-delicious-apple",
     },
     {
       id: 39,
@@ -741,7 +828,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/magnum-bonum",
     },
     {
       id: 40,
@@ -760,7 +849,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/collections/apple-trees/products/spitzenburg-apple",
     },
     {
       id: 41,
@@ -779,7 +871,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/honeycrisp-apple-tree",
     },
     {
       id: 42,
@@ -798,7 +892,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/products/arkansas-black-apple-tree",
     },
     {
       id: 43,
@@ -817,7 +914,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/ashmeads-kernel-apple",
     },
     {
       id: 44,
@@ -836,7 +935,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/seckel-pear-tree",
     },
     {
       id: 45,
@@ -855,7 +956,9 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/bartlett-pear-tree",
     },
     {
       id: 46,
@@ -874,7 +977,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/collections/pear-trees/products/b-p-moretini-pear-tree",
     },
     {
       id: 47,
@@ -893,7 +999,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/collections/pear-trees/products/magness-pear-tree",
     },
     {
       id: 48,
@@ -912,7 +1021,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/collections/pear-trees/products/hosui-pear-tree",
     },
     {
       id: 49,
@@ -931,7 +1043,10 @@ export default {
       size: "12-16",
       spacing: "12-16",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source:
+        "https://www.treesofantiquity.com/collections/pear-trees/products/nijiseiki-pear-tree",
     },
     {
       id: 50,
@@ -950,7 +1065,9 @@ export default {
       size: "12-15",
       spacing: "12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/ne-plus-almond",
     },
     {
       id: 51,
@@ -969,7 +1086,9 @@ export default {
       size: "12-15",
       spacing: "12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.treesofantiquity.com/products/monterey-almond",
     },
     {
       id: 52,
@@ -988,7 +1107,9 @@ export default {
       size: "12-15",
       spacing: "12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.costco.com/plants-trees.html",
     },
     {
       id: 53,
@@ -1007,7 +1128,9 @@ export default {
       size: "12-15",
       spacing: "12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.costco.com/plants-trees.html",
     },
     {
       id: 54,
@@ -1026,7 +1149,9 @@ export default {
       size: "12-15",
       spacing: "12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.costco.com/plants-trees.html",
     },
     {
       id: 55,
@@ -1045,7 +1170,9 @@ export default {
       size: "12-15",
       spacing: "12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://www.freeiconspng.com/uploads/ecology-flower-garden-leaf-leaves-plant-icon-1.jpg",
+      source: "https://www.costco.com/plants-trees.html",
     },
     {
       id: 56,
@@ -1064,7 +1191,9 @@ export default {
       size: "30-60",
       spacing: "25-40",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/walnut-tree-nursery_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/hartley-walnut",
     },
     {
       id: 57,
@@ -1083,7 +1212,9 @@ export default {
       size: "30-60",
       spacing: "25-40",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/chandler-walnut-nursery_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/chandler-walnut",
     },
     {
       id: 58,
@@ -1102,7 +1233,10 @@ export default {
       size: "30-60",
       spacing: "25-40",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/pedro-walnut-tree_2000x.jpg",
+      source:
+        "https://www.treesofantiquity.com/collections/nut-trees/products/pedro-walnut",
     },
     {
       id: 59,
@@ -1121,7 +1255,10 @@ export default {
       size: "30-60",
       spacing: "25-40",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/walnut-tree_2000x.jpg?v=1565561205",
+      source:
+        "https://www.treesofantiquity.com/collections/nut-trees/products/carpathian-walnut",
     },
     {
       id: 60,
@@ -1140,7 +1277,9 @@ export default {
       size: "7-12",
       spacing: "8-12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/angel_red_pomegranate_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/angel-red-pomegranate",
     },
     {
       id: 61,
@@ -1159,7 +1298,9 @@ export default {
       size: "7-12",
       spacing: "8-12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/grenada-pomegrante-bush_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/grenada-pomegranate",
     },
     {
       id: 62,
@@ -1178,7 +1319,9 @@ export default {
       size: "7-12",
       spacing: "8-12",
       yearPlanted: "2022",
-      image: placeholderImage,
+      image:
+        "https://cdn.shopify.com/s/files/1/0250/1384/6115/products/eversweet-pomegranate-bush_2000x.jpg",
+      source: "https://www.treesofantiquity.com/products/eversweet-pomegranate",
     },
   ],
 };

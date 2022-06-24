@@ -13,6 +13,7 @@ const PlantsContent = () => {
           id={plant.id}
           key={plant.name}
           name={plant.name}
+          source={plant.source}
           image={plant.image}
           showAddButton
         />

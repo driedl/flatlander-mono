@@ -7,31 +7,45 @@ export type Plant = {
   name: string;
   plantType: string;
   image: string;
+  source: string;
 };
 
-function store(set, get) {
-  return  {
-    allPlants: farmData.plants,
-    
+const { plants } = farmData;
+
+// const sourceListNormalized = sourceList.map((source: string) => {
+//   return source.split("?")[0];
+// });
+//
+// plants.forEach((plant, i: number) => {
+//   plant.source = sourceListNormalized[i];
+// });
+
+console.log(plants);
+
+function store(set: any, get: any) {
+  return {
+    allPlants: plants,
+
     selectedPlants: [],
 
     addSelectedPlant: (id: number) => {
-      const {selectedPlants} = get();
-      
+      const { selectedPlants } = get();
+
       if (selectedPlants.includes(id)) {
         return;
-      };
+      }
 
-      set((state) => ({
+      set((state: any) => ({
         ...state,
         selectedPlants: [...state.selectedPlants, id],
-      })
-      )
+      }));
     },
 
     getSelectedPlants: () => {
       const { selectedPlants, allPlants } = get();
-      return allPlants.filter((plant: Plant) => selectedPlants.includes(plant.id));
+      return allPlants.filter((plant: Plant) =>
+        selectedPlants.includes(plant.id)
+      );
     },
   };
 }
@@ -42,4 +56,3 @@ export const useStore = create<{
   addSelectedPlant: (id: number) => void;
   getSelectedPlants: () => Plant[];
 }>(store);
-
